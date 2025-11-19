@@ -42,6 +42,3 @@ public class Primes {
         System.out.println("There are " + count + " primes between 2 and " + n + " (" + (int)pre + "% are primes) ");
     }
 }
-
-There are 25 primes between 2 and 100 (25%25 are primes)
-Prime numbers up to 7: 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97%0AThere are 25 primes between 2 and 100 (25.0%25 are primes)
