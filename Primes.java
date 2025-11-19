@@ -34,6 +34,7 @@ public class Primes {
         {
             if (isprime[l] == true) 
             {
+                System.out.print(" " + l);
                 count++;
             }
         }
