@@ -38,7 +38,6 @@ public class MyString {
            {
                 str3 = str3 + str1.charAt(num);
                 num++;
-                System.out.println(str3);
            }
            if (str2.equals(str3)) 
            {

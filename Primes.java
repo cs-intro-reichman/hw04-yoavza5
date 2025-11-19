@@ -27,5 +27,19 @@ public class Primes {
                 }
             }
         }
+        for(int l = 0; l < n; l++)
+        {
+            int count = 0;
+            double pre = 0;
+            System.out.print("Prime numbers up to 7:");
+            if (isprime[l] == true) 
+            {
+                System.out.print(" " + l);
+                count++;
+            }
+            pre = (n/count) + 100;
+            System.out.println("");
+            System.out.println("There are " + count + " primes between 2 and " + n + " (" + pre + "% are primes)");
+        }
     }
 }
