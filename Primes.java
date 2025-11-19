@@ -29,7 +29,7 @@ public class Primes {
                 }
             }
         }
-        System.out.print("Prime numbers up to 7:");
+        System.out.print("Prime numbers up to " + n + ":");
         for(int l = 0; l < n; l++)
         {
             if (isprime[l] == true) 
