@@ -29,12 +29,12 @@ public class Primes {
                 }
             }
         }
-        System.out.print("Prime numbers up to " + n + ":");
+        System.out.println("Prime numbers up to " + n + ":");
         for(int l = 0; l <= n; l++)
         {
             if (isprime[l] == true) 
             {
-                System.out.print(" " + l);
+                System.out.println(" " + l);
                 count++;
             }
         }
