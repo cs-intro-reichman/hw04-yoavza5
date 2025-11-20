@@ -7,20 +7,20 @@ public class Primes {
         isprime[0] = false;
         isprime[1] = false;
         int x = 2;
-        for(int i = 2; i < n; i++)
+        for(int i = 2; i <= n; i++)
         {
             isprime[i] = true;
         }
         while (x <= Math.sqrt(n)) 
         {
-            for(int j = x; j < n; j++)
+            for(int j = x; j <= n; j++)
             {
                 if (j % x == 0 && j != x) 
                 {
                     isprime[j] = false;    
                 }
             }
-            for(int k = x + 1; k < n; k++)
+            for(int k = x + 1; k <= n; k++)
             {
                 if (isprime[k] == true) 
                 {
@@ -30,7 +30,7 @@ public class Primes {
             }
         }
         System.out.print("Prime numbers up to " + n + ":");
-        for(int l = 0; l < n; l++)
+        for(int l = 0; l <= n; l++)
         {
             if (isprime[l] == true) 
             {
